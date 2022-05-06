@@ -1,0 +1,23 @@
+{
+  "name": "@calrs/react",
+  "version": "0.1.0",
+  "description": "🚀 Speedy interactive web calendar 📅 powered by Rust 🦀",
+  "license": "MIT",
+  "keywords": [
+    "calendar",
+    "component",
+    "rust",
+    "react",
+    "vue"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calendar-rs/calrs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/calendar-rs/calrs/issues"
+  },
+  "homepage": "https://github.com/calendar-rs/calrs#readme",
+  "scripts": {
+  }
+}

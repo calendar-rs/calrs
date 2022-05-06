@@ -1,0 +1,49 @@
+{
+  "name": "calrs",
+  "private": true,
+  "description": "🚀 Speedy interactive web calendar 📅 powered by Rust 🦀",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calendar-rs/calrs.git"
+  },
+  "keywords": [
+    "calendar",
+    "component",
+    "rust",
+    "react",
+    "vue"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calendar-rs/calrs/issues"
+  },
+  "homepage": "https://github.com/calendar-rs/calrs#readme",
+  "scripts": {},
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "eslint",
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "engines": {
+    "node": ">=16.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": "^8.14.0",
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.4",
+    "vite": "^2.9.8",
+    "vitest": "^0.10.2"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.1"
+  }
+}
